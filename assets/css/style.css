@@ -44,11 +44,27 @@ a{
     margin-bottom: 10px;
     margin-top: 10px;
 }
+.nav_button_gift{
+    font-size: 50px;
+    border: 0px solid white;
+    border-radius: 10px;
+    background: linear-gradient(45deg,orange, white,orange);
+    border: 1px solid white;
+    width: max-content;
+    height: max-content;
+    margin-right:5px ;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 .nav_button:hover{
     transition: 0.5s;
     background: linear-gradient(-45deg,orange, white,orange);
     height: 50px;
     margin-right:5px ;
+}
+.nav_button_gift:hover{
+    transition: 0.5s;
+    background: linear-gradient(-45deg,orange, white,orange);
 }
 .nav_button:not(:hover){
     transition: 1s;
@@ -63,5 +79,13 @@ a{
 }
 .img3{
     height: 500px;
-    width: 90%;
+    width: 100%;
+}
+.img4{
+    width: 70%;
+    height: 500px;
+}
+.img5{
+    width: 70%;
+    height: 500px;
 }
