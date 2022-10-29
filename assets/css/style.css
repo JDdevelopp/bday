@@ -46,12 +46,13 @@ a{
 }
 .nav_button_gift{
     font-size: 50px;
-    border: 0px solid white;
     border-radius: 10px;
     background: linear-gradient(45deg,orange, white,orange);
     border: 1px solid white;
-    width: max-content;
-    height: max-content;
+    width: 25%;
+    height: 10vh;
+    /* width: max-content;
+    height: max-content; */
     margin-right:5px ;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -88,4 +89,10 @@ a{
 .img5{
     width: 70%;
     height: 500px;
+}
+.fa-solid{
+    font-size: 25px;
+}
+.fa-home{
+    font-size: 50px;
 }
